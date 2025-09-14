@@ -6,7 +6,7 @@ import sys
 import re
 
 # ================= Replace with your Bearer Token =================
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAOzK4AEAAAAAbN9yW2%2BM2bjwDONgWdBxh%2FIM6eo%3DA0u0W8V2wuzaGYmPFNDCTSAsKZVkfkqHKgfvT0PQPFjVe3u8Pm"
+BEARER_TOKEN = "A"
 # ==================================================================
 
 # Initialize Twitter API client
@@ -124,3 +124,4 @@ elif option == "Fetch tweets from user":
                 st.warning("No tweets found or unable to fetch tweets.")
         else:
             st.warning("Please enter a username.")
+
